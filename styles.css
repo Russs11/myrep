@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+ background-color: #f1f1f1;
+ color: #0f141e;
+
+font-size: 16px;
+font-weight: normal;
+font-family: "Roboto", sans-serif;
+
+}
+a {
+color: black;
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+a:active{
+
+    color: blue;
+
+}
+a:visited{
+
+    color: grey;
+}
+.avatar{
+
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) ;
+}
+
+.info p {
+
+    color: #86898f;
+    margin: 0; 
+    font-style: italic;
+    font font-weight: bold;
+
+}
+
+.info{
+    margin-bottom: 20px;
+}
+.container{
+
+    max-width: 750px;
+    margin: auto;
+}
+
+.bg-yellow{
+
+    /* background: #fff9dc; */
+    background: linear-gradient(to right, 
+    #fff9dc 0%, #fff9dc 20%, #fff9dc 100%);
+}   
+.top-right-shadow {
+    border-radius: 400px/30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    transform: rotate(-1deg);
+}
+
+.bg-green{
+    background: #e5ffe7;
+    
+}
+
+.top-left-shadow {
+    border-radius: 400px/30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    transform: rotate(3deg);
+
+}
+
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.top-left2-shadow{
+    border-radius: 400px/30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    transform: rotate(-0.5deg);
+   
+}
+
+.card{
+
+padding: 15px 20px;
+margin-bottom: 5px;
+border-radius: 20px;
+
+/* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) */
+}
+
+.card h2 {
+margin-bottom: 10px;
+}
+.list{
+    padding: 0 20px;
+}
+.list li{
+   color: #86898f;
+   padding-bottom: 10px;
+
+}
+.table{
+  width: 100%;  
+}
+.table td{
+    margin-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
