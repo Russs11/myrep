@@ -46,11 +46,30 @@ a:visited{
 
 .info{
     margin-bottom: 20px;
+    display: flex;
 }
+
+@media (max-width: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px ;
+}
+
+
 .container{
 
     max-width: 750px;
     margin: auto;
+    padding-top: 30px;
 }
 
 .bg-yellow{
@@ -97,7 +116,10 @@ border-radius: 20px;
 
 /* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) */
 }
+.card:hover{
 
+
+}
 .card h2 {
 margin-bottom: 10px;
 }
@@ -119,4 +141,72 @@ margin-bottom: 10px;
 .table td:nth-child(3) {
     color: #86898f;
 }
+
+.contact h2{
+
+    text-align: center;
+}
+
+.form-group{
+display:block;
+font-size: 14px;
+color: #86898f;
+}
+.form-group input,
+.form-group textarea{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+color: #000;
+padding: 15px 10px;
+outline: none;
+font-family: inherit;
+}
+
+.row{
+display: flex;
+margin-bottom: 10px;
+
+}
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child {
+
+    margin-right: 5px;
+}    
+
+.btn{
+    background: #000;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+opacity: .9;
+
+}
+
+/* Position */
+
+/* .position{
+    position: relative;
+border: 4px solid #000;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+/* .box{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /* left: 0px;
+    bottom: 150px; */
+
 
