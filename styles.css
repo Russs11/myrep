@@ -34,7 +34,18 @@ a:visited{
 .tglogo{
     width: 30px;  
 }
-
+.vklogo:hover{
+    opacity: .9;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+.tglogo:hover{
+opacity: .9;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);   
+}    
 
 .avatar{
 
@@ -48,7 +59,7 @@ a:visited{
     color: #86898f;
     margin: 0; 
     font-style: italic;
-    font font-weight: bold;
+    font-weight: bold;
 
 }
 
@@ -61,9 +72,8 @@ a:visited{
     .info{
         text-align: center;
         display: block;
-    }
 }
-
+}
 .info-text{
     margin-left: 40px;
 }
@@ -124,7 +134,11 @@ margin-bottom: 5px;
 border-radius: 20px;
 /* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) */
 }
-
+.card:hover{
+-webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .card h2 {
 margin-bottom: 10px;
 }
