@@ -15,9 +15,9 @@ color: black;
 text-decoration: none;
 }
 
-a:hover{
+/* a:hover{
 text-decoration: underline;
-}
+} */
 
 a:active{
 
@@ -28,6 +28,14 @@ a:visited{
 
     color: grey;
 }
+.vklogo {
+    width: 30px;
+}
+.tglogo{
+  width: 30px;  
+}
+
+
 .avatar{
 
     width: 200px;
@@ -78,9 +86,9 @@ a:visited{
     background: linear-gradient(to right, 
     #fff9dc 0%, #fff9dc 20%, #fff9dc 100%);
 }   
-.top-right-shadow {
-    border-radius: 400px/30px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+.shadow-for-yellow {
+    /* border-radius: 400px/30px; */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
     transform: rotate(-1deg);
 }
 
@@ -89,9 +97,9 @@ a:visited{
     
 }
 
-.top-left-shadow {
-    border-radius: 400px/30px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+.shadow-for-green {
+    /* border-radius: 400px/30px; */
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.30);
     transform: rotate(3deg);
 
 }
@@ -101,25 +109,22 @@ a:visited{
     background: #ffe5e5;
 }
 
-.top-left2-shadow{
-    border-radius: 400px/30px;
+.shadow-for-red{
+    /* border-radius: 400px/30px; */
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
-    transform: rotate(-0.5deg);
-   
+    transform: rotate(-0.5deg);  
 }
-
+/* .shadow-for-red:hover{
+opacity: .7;   
+} */
 .card{
 
 padding: 15px 20px;
 margin-bottom: 5px;
 border-radius: 20px;
-
 /* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) */
 }
-.card:hover{
 
-
-}
 .card h2 {
 margin-bottom: 10px;
 }
