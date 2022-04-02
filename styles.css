@@ -35,16 +35,16 @@ a:visited{
     width: 30px;  
 }
 .vklogo:hover{
-    opacity: .9;
-    -webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
+    -webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
 }
 .tglogo:hover{
-opacity: .9;
-    -webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);   
+
+  -webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
+/* -webkit-transform: translate(0 ,-5px); */
 }    
 
 .avatar{
@@ -99,7 +99,7 @@ transform: scale(1.2);
 .shadow-for-yellow {
     /* border-radius: 400px/30px; */
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
-    transform: rotate(-1deg);
+    /* transform: rotate(-1deg); */
 }
 
 .bg-green{
@@ -110,7 +110,7 @@ transform: scale(1.2);
 .shadow-for-green {
     /* border-radius: 400px/30px; */
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.30);
-    transform: rotate(3deg);
+    /* transform: rotate(3deg); */
 
 }
 
@@ -122,7 +122,7 @@ transform: scale(1.2);
 .shadow-for-red{
     /* border-radius: 400px/30px; */
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
-    transform: rotate(-0.5deg);  
+    /* transform: rotate(-0.5deg);   */
 }
 /* .shadow-for-red:hover{
 opacity: .7;   
@@ -138,6 +138,7 @@ border-radius: 20px;
 -webkit-transform: scale(1.1);
 -ms-transform: scale(1.1);
 transform: scale(1.1);
+ transition: all 0.2s linear 0s;
 }
 .card h2 {
 margin-bottom: 10px;
@@ -146,12 +147,12 @@ margin-bottom: 10px;
     padding: 0 20px;
 }
 .list li{
-   color: #86898f;
-   padding-bottom: 10px;
+color: #86898f;
+padding-bottom: 10px;
 
 }
 .table{
-  width: 100%;  
+width: 100%;  
 }
 .table td{
     margin-bottom: 10px;
