@@ -68,7 +68,7 @@ transform: scale(0.9);
     display: flex;
 }
 
-@media (max-width: 700px){
+@media (max-width: 750px){
     .info{
         text-align: center;
         display: block;
@@ -196,7 +196,7 @@ margin-bottom: 10px;
 }
 .row > .form-group:last-child {
 
-    margin-right: 5px;
+    margin-right: 0px;
 }    
 
 .btn{
