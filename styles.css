@@ -38,6 +38,7 @@ a:visited{
     -webkit-transform: scale(0.9);
 -ms-transform: scale(0.9);
 transform: scale(0.9);
+transition: all 0.2s linear 0s;
 }
 .tglogo:hover{
 
