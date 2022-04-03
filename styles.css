@@ -34,7 +34,18 @@ a:visited{
 .tglogo{
     width: 30px;  
 }
+.vklogo:hover{
+    -webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
+}
+.tglogo:hover{
 
+  -webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
+/* -webkit-transform: translate(0 ,-5px); */
+}    
 
 .avatar{
 
@@ -48,7 +59,7 @@ a:visited{
     color: #86898f;
     margin: 0; 
     font-style: italic;
-    font font-weight: bold;
+    font-weight: bold;
 
 }
 
@@ -57,13 +68,12 @@ a:visited{
     display: flex;
 }
 
-@media (max-width: 700px){
+@media (max-width: 750px){
     .info{
         text-align: center;
         display: block;
-    }
 }
-
+}
 .info-text{
     margin-left: 40px;
 }
@@ -89,7 +99,7 @@ a:visited{
 .shadow-for-yellow {
     /* border-radius: 400px/30px; */
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
-    transform: rotate(-1deg);
+    /* transform: rotate(-1deg); */
 }
 
 .bg-green{
@@ -100,7 +110,7 @@ a:visited{
 .shadow-for-green {
     /* border-radius: 400px/30px; */
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.30);
-    transform: rotate(3deg);
+    /* transform: rotate(3deg); */
 
 }
 
@@ -112,7 +122,7 @@ a:visited{
 .shadow-for-red{
     /* border-radius: 400px/30px; */
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
-    transform: rotate(-0.5deg);  
+    /* transform: rotate(-0.5deg);   */
 }
 /* .shadow-for-red:hover{
 opacity: .7;   
@@ -124,7 +134,12 @@ margin-bottom: 5px;
 border-radius: 20px;
 /* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) */
 }
-
+.card:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+ transition: all 0.2s linear 0s;
+}
 .card h2 {
 margin-bottom: 10px;
 }
@@ -132,12 +147,12 @@ margin-bottom: 10px;
     padding: 0 20px;
 }
 .list li{
-   color: #86898f;
-   padding-bottom: 10px;
+color: #86898f;
+padding-bottom: 10px;
 
 }
 .table{
-  width: 100%;  
+width: 100%;  
 }
 .table td{
     margin-bottom: 10px;
@@ -181,7 +196,7 @@ margin-bottom: 10px;
 }
 .row > .form-group:last-child {
 
-    margin-right: 5px;
+    margin-right: 0px;
 }    
 
 .btn{
